@@ -1,0 +1,31 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+body.about{
+    background-color:paleturquoise;
+}
+a {
+   text-decoration: none; 
+   font-weight: bold;
+   padding-right: 15px;
+   color:lightseagreen;
+}
+
+.button{
+    color:lightyellow;
+    background-color: mediumaquamarine;
+    border: solid 2px;
+    padding:10px;
+    margin:15px;
+    border-radius: 5px;
+}
+
+.footer{
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex:3;
+    justify-content: space-between;
+}
